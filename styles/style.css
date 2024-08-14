@@ -1,0 +1,819 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miami');
+/* shared style */
+*{
+    margin: 0;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+.button{
+    width: 250px;
+    height: 65px;
+    border-radius: 70px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+}
+.dark-color{
+    color: rgba(255, 255, 255, 0.5);
+}
+/* nav section style */
+.span{
+    font-family: 'Miami', sans-serif;
+    font-weight: 100;
+}
+.nav{
+    width: 100%;
+    height: 800px;
+    background: #1A1A1A;
+}
+.navbar{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    margin: auto auto;
+    padding: 50px;
+
+}
+.navbar h3{   
+    width: 50%;
+    color: rgb(230, 83, 60);
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+    color: white;
+    width: 50%;
+}
+
+.button-1{
+    width: 128px;
+    height: 51px;
+    border-radius: 70px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+}
+.ham-burger{
+    display: none;
+}
+.banner{
+    width: 80%;
+    display: flex;
+   margin: 0 auto;
+}
+.banner-text{
+    color: white;
+    width: 50%;
+}
+.banner-text h1{
+    font-size: 109px;
+    padding-bottom: 50px;
+}
+/* .span{
+
+} */
+.banner-paragraph{
+    padding-bottom: 80px;
+    text-align: start;
+}
+.button-2{
+    width: 250px;
+    height: 65px;
+    border-radius: 70px;
+    color: white;
+    background-color: #1A1A1A;
+    border: none;
+    margin-left: 20px;
+    border: 2px solid white;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.image-and-card{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-1{
+    position: absolute;
+}
+.card-text{
+    font-size: 26px;
+    font-weight: 900;
+    margin-bottom: -28px;
+    margin-top: 10px;
+    text-align: center;
+}
+.card-1, .card-2{
+    width: 170px;
+    height: 90px;
+    color: white;
+    background-color: grey;
+    position: absolute;
+}
+.card-1{
+    position: relative; 
+    margin-top: 130px;
+    margin-right: -460px;
+    border-radius: 10px;
+}
+.point{
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color:rgb(230, 83, 60) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 28px;
+    left: 5px;
+}
+.card-2{
+    position: relative;
+    margin-top: 420px;
+    margin-right: 250px;
+    border-radius: 10px;
+}
+main{
+    width: 100%;
+    background-color: #1A1A1A;
+}
+.habits-section{
+    width: 80%;
+    background-color: #1A1A1A;
+    color: white;
+    margin: 0 auto;
+    padding-top: 2rem;
+
+}
+.habits-section h1, p{
+    text-align: center;  
+    padding: 2rem;
+}
+.tokens{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+.token img{
+    border-radius: 50%;
+}
+/* run section style */
+.run-sections{
+    height: 600px;
+    background-color: #1A1A1A;
+}
+.run-section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding: 50px 0;
+    background-color: rgba(245, 220, 239, 0.5);
+    border-radius: 20px;
+
+}
+.run {
+    width: 40%;
+    padding: 30px;
+}
+.run h4, .gap {
+    margin-top: 80px;
+}
+.image-section{
+    width: 40%;
+    height: 50%;
+    padding: 30px;  
+
+}
+.image-2{
+    width: 100%;
+    height: 80%;
+    border-radius: 5%;
+
+}
+/* bmi section style */
+.bmi-tittle{
+    font-size: 3rem;
+    font-weight: 800;
+    color: white;
+}
+.bmi-sections{
+    width: 100%;
+    color: white;
+    background-color: rgba(240, 248, 255, 0.185);
+   
+
+}
+.bmi-section{
+    width: 80%;
+    margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     padding: 80px 0;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border:1px solid white;
+    padding:5px 35px;
+
+}
+.calculate-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.select-1{
+    width: 177px;
+}
+.select-2{
+    width: 360px;
+}
+.button-3{
+    width: 180px;
+    height: 40px;
+    border-radius: 70px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+}
+/* meet section style */
+.meet-section{
+    width: 100%;
+    height: 1000px;
+    color: white;
+    margin: 50px auto;
+}
+.meet-section h1{
+    text-align: center;
+}
+.pictures{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+    
+}
+.picture{
+    height: 50px;
+    width: 20%;
+     position: absolute;
+}
+.pic{
+    width: 100%;
+    height: 400px;
+    margin-bottom: -44px;
+    border-radius: 0.5rem;
+    
+   
+}
+.relative{
+   position: relative;
+    bottom: 50px;
+    
+}
+/* footer section style */
+footer{
+    width: 100%;
+    height: 350px;
+    margin-top: -50px;
+    background-color: #1a1a1a63;
+    color: black;
+}
+.footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.footer-title{
+width: 50%;
+color: rgb(230, 83, 60);
+font-size: 60px;
+font-weight: 800;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.div-1 p{
+    text-align: start;
+    padding-left: 0px;
+}
+.div-2 h2{
+    color: white;
+}
+.div-2 li{
+    list-style: none;
+    gap: 122px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.reserved{
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* Responsive large device */
+@media screen and (min-width:993px){
+.button-1{
+    color: white;
+}
+.button{
+    width: 250px;
+    height: 65px;
+    border-radius: 70px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+}
+/* nav section style */
+.nav{
+    width: 100%;
+    height: 800px;
+    background: #1A1A1A;
+}
+.navbar{
+    width: 80%;
+    height: 100px;
+    display: flex;
+    margin: auto auto;
+    padding: 50px;
+
+}
+.navbar h3{   
+    width: 50%;
+    color: rgb(230, 83, 60);
+    font-size: 50px;
+    font-weight: 800;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 80px;
+    list-style: none;
+    color: white;
+    width: 50%;
+}
+
+.button-1{
+    width: 128px;
+    height: 51px;
+    border-radius: 70px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+}
+.ham-burger{
+    display: none;
+}
+.banner{
+    width: 80%;
+    display: flex;
+   margin: 0 auto;
+}
+.banner-text{
+    color: white;
+    width: 50%;
+}
+.banner-text h1{
+    font-size: 109px;
+    padding-bottom: 50px;
+}
+.banner-paragraph{
+    padding-bottom: 80px;
+    text-align: start;
+}
+.button-2{
+    width: 250px;
+    height: 65px;
+    border-radius: 70px;
+    color: white;
+    background-color: #1A1A1A;
+    border: none;
+    margin-left: 20px;
+    border: 2px solid white;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.image-and-card{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.image-1{
+    position: absolute;
+}
+.card-text{
+    font-size: 26px;
+    margin-bottom: -28px;
+    margin-top: 10px;
+    text-align: center;
+}
+.card-1, .card-2{
+    width: 170px;
+    height: 90px;
+    color: white;
+    background-color: grey;
+    position: absolute;
+}
+.card-1{
+    position: relative; 
+    margin-top: 130px;
+    margin-right: -460px;
+    border-radius: 10px;
+}
+.point{
+    width: 1.7rem;
+    height: 1.7rem;
+    background-color:rgb(230, 83, 60) ;
+    border-radius: 50%;
+    position: absolute;
+    top: 28px;
+    left: 5px;
+}
+.card-2{
+    position: relative;
+    margin-top: 420px;
+    margin-right: 250px;
+    border-radius: 10px;
+}
+/* main section style */
+main{
+    width: 100%;
+    background-color: #1A1A1A;
+}
+.habits-section{
+    width: 80%;
+    background-color: #1A1A1A;
+    color: white;
+    margin: 0 auto;
+}
+.habits-section h1, p{
+    text-align: center;  
+    padding: 2rem;
+}
+.tokens{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+.token img{
+    border-radius: 50%;
+}
+/* run section style */
+.run-sections{
+    height: 640px;
+    background-color: #1A1A1A;
+}
+.run-section{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    padding: 50px 0;
+    background-color: rgba(245, 220, 239, 0.5);
+    border-radius: 20px;
+
+}
+.run {
+    width: 40%;
+    padding: 30px;
+}
+.run h4, .gap {
+    margin-top: 80px;
+}
+.image-section{
+    width: 40%;
+    height: 50%;
+    padding: 30px;  
+
+}
+.image-2{
+    width: 100%;
+    height: 80%;
+    border-radius: 5%;
+
+}
+/* bmi section style */
+.bmi-sections{
+    width: 100%;
+    color: white;
+    background-color: rgba(240, 248, 255, 0.185);
+   
+
+}
+.bmi-section{
+    width: 80%;
+    margin: 0 auto;
+     display: flex;
+     justify-content: space-between;
+     padding: 80px 0;
+}
+table{
+    border-collapse: collapse;
+}
+td, th{
+    border:1px solid white;
+    padding:5px 35px;
+
+}
+.calculate-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.label{
+    color: #1A1A1A;
+}
+.select-1{
+    width: 177px;
+}
+.select-2{
+    width: 360px;
+}
+.button-3{
+    width: 180px;
+    height: 40px;
+    border-radius: 70px;
+    background-color: rgb(230, 83, 60);
+    border: none;
+    font-size: 1rem;
+    font-weight: 800;
+    color: white;
+}
+/* meet section style */
+.meet-section{
+    width: 100%;
+    height: 1000px;
+    color: white;
+    margin: 50px auto;
+}
+.meet-section h1{
+    text-align: center;
+}
+.pictures{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    
+    
+}
+.picture{
+    height: 50px;
+    width: 20%;
+     position: absolute;
+}
+.pic{
+    width: 100%;
+    height: 400px;
+    margin-bottom: -44px;
+    
+   
+}
+.relative{
+   position: relative;
+    bottom: 50px;
+    
+}
+/* footer section style */
+footer{
+    width: 100%;
+    height: 350px;
+    margin-top: -50px;
+    background-color: #1a1a1a63;
+    color: black;
+}
+.footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.footer-title{
+width: 50%;
+color: rgb(230, 83, 60);
+font-size: 60px;
+font-weight: 800;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+.div-1 p{
+    text-align: start;
+    padding-left: 0px;
+}
+.div-2 h2{
+    color: white;
+}
+.div-2 li{
+    list-style: none;
+    gap: 122px;
+}
+.reserved{
+    text-align: center;
+    margin: 20px;
+}
+}
+
+
+/* Responsive small  device */
+@media screen and (max-width:576px){
+    .nav{
+        height: 1050px;
+    }
+    .navbar li{
+        display: none;
+    }
+    .ham-burger{
+        width: 30px;
+        display:block;
+     }
+   .banner{
+    flex-direction: column;
+   }
+   .banner-text{
+    width: 100%;
+    text-align: start;
+   } 
+   .banner-text h1{
+    font-size: 20px;
+   }
+   .banner-text p{
+    font-size: 12px;
+   }
+   .banner-button{
+    display: flex;
+   }
+   .image-and-card{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+   }
+   .card-1{
+    position: absolute;
+    margin-top: 60px;
+    margin-right: -10px;
+   }
+    .card-2{
+    position: absolute;
+    margin-top: 420px;
+    margin-right: 160px;
+    }
+    .tokens{
+        flex-direction: column;
+    }
+    .run-sections{
+       margin-bottom: 2rem;  
+       height: 800px;
+    }
+    .run-section{
+        flex-direction: column;
+    }
+    .run{
+        width: 80%;
+    }
+    .image-section{
+        width: 80%;
+    }
+    .bmi-section{
+        flex-direction: column;
+    } 
+    .select-2{
+        width: 11rem;
+    }
+    .calculate-section{
+        padding-top: 20px;
+    }
+    .meet-section{
+        height: 2700px;
+    }
+    .pictures{
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer{
+        height: 615px;
+    }
+    .footer{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+/* Responsive medium  device */
+@media screen and (min-width:577px) and (max-width:992px) {
+    .nav{
+        height: 1050px;
+    }
+    .navbar li{
+        display: none;
+    }
+    .ham-burger{
+        width: 30px;
+        display:block;
+     }
+   .banner{
+    flex-direction: column;
+   }
+   .banner-text{
+    width: 100%;
+    text-align: start;
+   } 
+   .banner-text h1{
+    font-size: 20px;
+   }
+   .banner-text p{
+    font-size: 12px;
+   }
+   .banner-button{
+    display: flex;
+   }
+   .image-and-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+   }
+   .card-1{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: -150px;
+   }
+    .card-2{
+    position: absolute;
+    margin-top: 420px;
+    margin-right: 270px;
+    }
+    .tokens{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .run-sections{
+        height: 800px;
+    }
+    .run-section{
+        flex-direction: column;
+    }
+    .run{
+        width: 80%;
+    }
+    .image-section{
+        width: 80%;
+    }
+    .bmi-section{
+        flex-direction: column;
+    } 
+    .select-2{
+        width: 11rem;
+    }
+    .calculate-section{
+        padding-top: 20px;
+    }
+    .meet-section{
+        height: 2700px;
+    }
+    .pictures{
+        grid-template-columns: repeat(1,1fr);
+    }
+    footer{
+        height: 580px;
+    }
+    .footer{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+    }
+}
